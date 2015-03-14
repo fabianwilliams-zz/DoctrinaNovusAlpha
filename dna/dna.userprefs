@@ -1,1 +1,14 @@
-﻿<Properties StartupItem="iOS/dna.iOS.csproj" />
+﻿<Properties StartupItem="iOS/dna.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone5s.8.2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="dna/EntryPageAlpha.cs">
+    <Files>
+      <File FileName="dna/EntryPageAlpha.cs" Line="58" Column="60" />
+      <File FileName="dna/DataObjects/FabeSession.cs" Line="19" Column="22" />
+      <File FileName="dna/DataServices/SessionServices.cs" Line="34" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

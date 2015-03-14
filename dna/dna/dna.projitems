@@ -11,5 +11,11 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)dna.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EntryPageAlpha.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataObjects\FabeSession.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataServices\SessionServices.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)DataObjects\" />
+    <Folder Include="$(MSBuildThisFileDirectory)DataServices\" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Linq;
 using Xamarin.Forms;
 
 namespace dna
@@ -29,11 +31,36 @@ namespace dna
 				"bravo",
 				"charlie",
 				"delta",
-				"echo"
+				"echo",
+				"foxtrot",
+				"golf",
+				"hotel",
+				"india",
+				"juliet"
+
 			};
 
 			var listview1 = new ListView ();
-			listview1.ItemsSource = fabianlist;
+			//using the below line it will set it to everything in the array
+
+			//listview1.ItemsSource = fabianlist;
+
+			//using the linq query below i can filter out because ListView is an IEnumerable
+			//so i can feed it a source of information and use linq query
+			/*
+			listview1.ItemsSource = 
+				from c in fabianlist
+			 	where c.Contains ("o") //this can be anything but i am picking a vowel
+				select c;
+			*/
+
+			//using the below takes the simple class above by binding to a Complex type
+			//which will be more that what is going to be the case. 
+			listview1.ItemsSource = SessionServices.GetAllSessions();
+
+			listview1.ItemSelected += (sender, e) => {
+				Debug.WriteLine("You clicked: " + e.SelectedItem);
+			};
 
 			var label1 = new Label {
 				Text = "Fabian Learning Xamarin.Forms",
