@@ -13,9 +13,11 @@
     <Compile Include="$(MSBuildThisFileDirectory)EntryPageAlpha.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DataObjects\FabeSession.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DataServices\SessionServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MakeMePretty\SessionCell.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)DataObjects\" />
     <Folder Include="$(MSBuildThisFileDirectory)DataServices\" />
+    <Folder Include="$(MSBuildThisFileDirectory)MakeMePretty\" />
   </ItemGroup>
 </Project>

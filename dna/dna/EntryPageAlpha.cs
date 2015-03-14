@@ -58,6 +58,20 @@ namespace dna
 			//which will be more that what is going to be the case. 
 			listview1.ItemsSource = SessionServices.GetAllSessions();
 
+			//using the below will use a Generic Text Cell
+			//var currCell = new DataTemplate (typeof(TextCell));
+
+			//using the below will implement my Custom Class that inherits from ViewCell that gives
+			//much more control over how i can use the Cell in my ListLayout
+			var currCell = new DataTemplate (typeof(SessionCell));
+
+			//currCell.SetBinding (TextCell.TextProperty, new Binding ("SessionName")); //can take this out cuz im handling this in teh cell class
+			//currCell.SetBinding(TextCell.DetailProperty, new Binding("SessionDesc")); // same as above
+			currCell.SetValue (TextCell.TextColorProperty, Color.Red);
+			currCell.SetValue (TextCell.DetailColorProperty, Color.Blue);
+
+			listview1.ItemTemplate = currCell;
+
 			listview1.ItemSelected += (sender, e) => {
 				Debug.WriteLine("You clicked: " + e.SelectedItem);
 			};
