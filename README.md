@@ -6,7 +6,7 @@ Learning Xamarin Forms
 <p>Learning Aids coming from</p>
 <ul>
 	<li>
-		PluralSight Joe Wilson Course
+		PluralSight Joe Wilson Course - <a href="http://www.pluralsight.com/courses/xamarin-forms-introduction" target="_blank">here</a>
 	</li>
 </ul>
 
