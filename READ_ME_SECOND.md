@@ -5,6 +5,13 @@
 If you are new to Git, the first thing you should do is read this <b>excellent</b> blog post located <a href ="https://johanleino.wordpress.com/2013/09/18/tfs-vs-git-or-is-it-tfs-with-git" target="_blank">here</a>. Its basically a compare/contrast about Git v/s TFS but it sets a great foundaiton about what both are so you can make an informed decision as why to choose one over the other. In doing so, its lays out how to use Git and it references a tool I acually just pulled down because it looks so awesome.  I still say that you should use the command line wherever possible, but a visual aid is always helpful.</p>
 
 <h2> Great Video References for GitHub </h2>
+<ul>
+<li>
+<p> <a href="https://www.youtube.com/watch?v=0fKg7e37bQE" target="_blank">GitHub for Beginners</a></p>
+</li>
+<li>
+<p> <a href="https://www.youtube.com/watch?v=U8GBXvdmHT4" target="_blank">The Basics of GitHub</a></p>
+
 
 <p>
 Backfill
